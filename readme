@@ -1,0 +1,33 @@
+# Customer Sales Conversion
+
+You will analyze customer behavior on a commercial website and create a supervised machine learning model to predict whether visiting a website will result in a purchase.
+
+## Background
+
+Commerce websites often record visits to analyze customer behavior. One important aspect of customer analytics is whether a visit to the website results in a sale. An e-commerce agent might analyze how long visitors stay on the website, how many pages they visit, what types of pages they visit, and whether they make a purchase. Such information can be used to predict whether a visit will result in a purchase. 
+
+## Instructions
+
+1. Import the data into a Pandas DataFrame and examine the column names and their descriptions.
+
+2. Next, analyze the data to retrieve the following information:
+
+  * The number of visits for each month.
+  * The number of visits that resulted in a sale.
+  * The percentage of visits that resulted in a purchase.
+
+3. Filter the DataFrame for all purchase:
+
+  * What is the number of visits for each month that resulted in a purchase?
+  * Which month had the greatest number of visits in which a purchase was made?
+  * How many visits were from returning visitors?
+  * How many visits were from new visitors?
+  * How many visits took place on a weekday?
+  * How many visits took place over the weekend?
+
+4. Next, perform logistic regression to predict the behavior of future visitors to the website, 
+  * Use the testing data to make predictions.
+  * Print the classification report of the model's performance.
+
+Data adapted from [Online Shoppers Purchasing Intention Dataset Data Set](https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset).
+
