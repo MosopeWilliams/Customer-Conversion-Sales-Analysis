@@ -1,5 +1,5 @@
 # Customer-Conversion-Sales-Analysis
-## Websites for commerce frequently keep track of visits to study user
+ Websites for commerce frequently keep track of visits to study user
 behavior. Whether a visitor makes a purchase after seeing the website is an
 important factor in customer analytics. The length of time visitors spend on
 the website, the number of pages they view, the variety of pages they view,
